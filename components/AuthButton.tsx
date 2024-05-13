@@ -1,37 +1,36 @@
+import { Link } from "@/src/navigation";
 import { createClient } from "@/utils/supabase/server";
-import Link from "next/link";
+import { Button } from "@nextui-org/button";
+import { useTranslations } from "next-intl";
 import { redirect } from "next/navigation";
 
 export default async function AuthButton() {
-  const supabase = createClient();
-
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  const signOut = async () => {
-    "use server";
-
     const supabase = createClient();
-    await supabase.auth.signOut();
-    return redirect("/login");
-  };
+    const t = useTranslations("Auth");
 
-  return user ? (
-    <div className="flex items-center gap-4">
-      Hey, {user.email}!
-      <form action={signOut}>
-        <button className="py-2 px-4 rounded-md no-underline bg-btn-background hover:bg-btn-background-hover">
-          Logout
-        </button>
-      </form>
-    </div>
-  ) : (
-    <Link
-      href="/login"
-      className="py-2 px-3 flex rounded-md no-underline bg-btn-background hover:bg-btn-background-hover"
-    >
-      Login
-    </Link>
-  );
+    
+    const {
+        data: { user },
+    } = await supabase.auth.getUser();
+    
+    const signOut = async () => {
+        "use server";
+        
+        const supabase = createClient();
+        await supabase.auth.signOut();
+        return redirect("/login");
+    };
+
+    
+    return user ? (
+        <form action={signOut}>
+            <Button className="bg-red-600 text-white">
+                {t("logout")}
+            </Button>
+        </form>
+    ) : (
+        <Link className="text-black border-2 rounded-md px-4 py-2 border-black items-center flex" href="/login">
+            {t("login")}
+        </Link>
+);
 }

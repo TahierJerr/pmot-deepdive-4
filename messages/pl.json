@@ -1,0 +1,10 @@
+{
+    "Nav": {
+        "search": "Szukać"
+    },
+    "Auth": {
+        "login": "Zaloguj",
+        "logout": "Wyloguj",
+        "register": "Zarejestruj"
+    }
+}

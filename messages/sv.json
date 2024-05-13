@@ -1,0 +1,10 @@
+{
+    "Nav": {
+      "search": "Söka"
+    },
+    "Auth": {
+        "login": "Logga in",
+        "logout": "Logga ut",
+        "register": "Registrera"
+    }
+  }

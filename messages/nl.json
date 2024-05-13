@@ -1,0 +1,10 @@
+{
+    "Nav": {
+      "search": "Zoeken"
+    },
+    "Auth": {
+        "login": "Inloggen",
+        "logout": "Uitloggen",
+        "register": "Registreren"
+    }
+  }
