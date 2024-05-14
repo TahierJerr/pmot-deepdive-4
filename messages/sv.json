@@ -5,6 +5,10 @@
     "Auth": {
         "login": "Logga in",
         "logout": "Logga ut",
-        "register": "Registrera"
+        "register": "Registrera",
+        "account": "Konto",
+        "profile": "Profil",
+        "cancel": "Avbryt",
+        "areyousure": "Är du säker på att du vill logga ut?"
     }
   }

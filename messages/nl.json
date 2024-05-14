@@ -5,6 +5,10 @@
     "Auth": {
         "login": "Inloggen",
         "logout": "Uitloggen",
-        "register": "Registreren"
+        "register": "Registreren",
+        "account": "Account",
+        "profile": "Profiel",
+        "cancel": "Annuleren",
+        "areyousure": "Weet je zeker dat je wilt uitloggen"
     }
   }

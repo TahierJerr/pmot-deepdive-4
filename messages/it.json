@@ -5,6 +5,10 @@
     "Auth": {
         "login": "Accedi",
         "logout": "Esci",
-        "register": "Registrati"
+        "register": "Registrati",
+        "account": "Account",
+        "profile": "Profilo",
+        "cancel": "Annulla",
+        "areyousure": "Sei sicuro di voler uscire?"
     }
 }

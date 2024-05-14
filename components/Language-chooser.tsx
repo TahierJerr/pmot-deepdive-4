@@ -14,7 +14,7 @@ const LanguageChooser = () => {
     return (
         <Dropdown title='Languages'>
             <DropdownTrigger>
-                <Button isIconOnly variant='bordered'><LanguagesIcon size={20} /></Button>
+                <Button isIconOnly className='rounded-md' variant='bordered'><LanguagesIcon size={20} /></Button>
             </DropdownTrigger>
             <DropdownMenu selectionMode='single' selectedKeys={selectedKeys}>
                 <DropdownItem key="en"><Link href="/" locale='en'>English</Link></DropdownItem>

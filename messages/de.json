@@ -5,6 +5,10 @@
     "Auth": {
         "login": "Anmelden",
         "logout": "Abmelden",
-        "register": "Registrieren"
+        "register": "Registrieren",
+        "account": "Konto",
+        "profile": "Profil",
+        "cancel": "Abbrechen",
+        "areyousure": "Sind Sie sicher, dass Sie sich abmelden möchten?"
     }
 }
