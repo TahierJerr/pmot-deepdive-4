@@ -10,5 +10,14 @@
         "profile": "Profile",
         "cancel": "Cancel",
         "areyousure": "Are you sure you want to logout?"
+    },
+    "Category": {
+        "robotics": "Robotics",
+        "renewable energy": "Renewable Energy",
+        "arithmetic": "Arithmetic",
+        "physics": "Physics",
+        "wooden techiniquesets": "Wooden Techniquesets",
+        "profile": "Profile",
+        "logout": "Logout"
     }
 }

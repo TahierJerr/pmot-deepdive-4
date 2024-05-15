@@ -10,5 +10,14 @@
         "profile": "Profil",
         "cancel": "Anuluj",
         "areyousure": "Czy na pewno chcesz się wylogować?"
+    },
+    "Category": {
+      "robotics": "Robotyka",
+      "renewable energy": "Energia odnawialna",
+      "arithmetic": "Arytmetyka",
+      "physics": "Fizyka",
+      "woodensets": "Zestawy techniki drewnianej",
+      "profile": "Profil",
+      "logout": "Wyloguj"
     }
 }

@@ -10,5 +10,14 @@
         "profile": "Profiel",
         "cancel": "Annuleren",
         "areyousure": "Weet je zeker dat je wilt uitloggen"
+    },
+    "Category": {
+      "robotics": "Robotica",
+      "renewable energy": "Duurzame energie",
+      "arithmetic": "Rekenen",
+      "physics": "Natuurkunde",
+      "woodensets": "Houten technieksets",
+      "profile": "Profiel",
+      "logout": "Uitloggen"
     }
   }

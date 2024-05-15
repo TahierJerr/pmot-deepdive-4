@@ -1,6 +1,6 @@
 {
     "Nav": {
-      "search": "Söka"
+        "search": "Söka"
     },
     "Auth": {
         "login": "Logga in",
@@ -10,5 +10,14 @@
         "profile": "Profil",
         "cancel": "Avbryt",
         "areyousure": "Är du säker på att du vill logga ut?"
+    },
+    "Category": {
+        "robotics": "Robotik",
+        "renewable energy": "Förnybar energi",
+        "arithmetic": "Aritmetik",
+        "physics": "Fysik",
+        "wooden techiniquesets": "Träteknikset",
+        "profile": "Profil",
+        "logout": "Logga ut"
     }
-  }
+}
