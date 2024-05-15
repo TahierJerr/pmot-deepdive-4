@@ -1,6 +1,10 @@
 {
     "Nav": {
-      "search": "Zoeken"
+      "search": "Zoeken",
+      "free-shipping": "Gratis verzending in Nederland vanaf €100,-.",
+      "for-schools": "Voor scholen en particulieren!",
+      "home": "Home",
+      "open menu": "Open menu"
     },
     "Auth": {
         "login": "Inloggen",
@@ -12,12 +16,22 @@
         "areyousure": "Weet je zeker dat je wilt uitloggen"
     },
     "Category": {
-      "robotics": "Robotica",
+      "robotica": {
+        "title": "Robotica",
+        "description": "Ontdek de wereld van robotica met onze educatieve kits. Leer hoe je je eigen robot kunt bouwen en programmeren en verken de eindeloze mogelijkheden van technologie."
+        },
       "renewable energy": "Duurzame energie",
       "arithmetic": "Rekenen",
       "physics": "Natuurkunde",
       "woodensets": "Houten technieksets",
+      "tools": "Gereedschappen",
       "profile": "Profiel",
       "logout": "Uitloggen"
+    },
+    "Header": {
+        "welcome": "Welkom bij PMOT",
+        "description": "De expert in uitdagende technische materialen voor scholen en particulieren. Verken ons assortiment en laat je inspireren door onze hoogwaardige producten die leren en ontdekken stimuleren. Bij PMOT maken we technologie toegankelijk en boeiend voor iedereen!",
+        "shop": "Bekijk nu",
+        "contact": "Contact"
     }
   }

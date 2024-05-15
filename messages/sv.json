@@ -1,6 +1,10 @@
 {
     "Nav": {
-        "search": "Söka"
+        "search": "Sök",
+        "free-shipping": "Fri frakt i Nederländerna från €100,-.",
+        "for-schools": "För skolor och individer!",
+        "home": "Hem",
+        "open menu": "Öppna meny"
     },
     "Auth": {
         "login": "Logga in",
@@ -12,12 +16,22 @@
         "areyousure": "Är du säker på att du vill logga ut?"
     },
     "Category": {
-        "robotics": "Robotik",
+        "robotics": {
+            "title": "Robotik",
+            "description": "Upptäck världen av robotik med våra utbildningskit. Lär dig att bygga och programmera din egen robot och utforska de oändliga möjligheterna inom teknik."
+        },
         "renewable energy": "Förnybar energi",
         "arithmetic": "Aritmetik",
         "physics": "Fysik",
-        "wooden techiniquesets": "Träteknikset",
+        "woodensets": "Träteknikset",
+        "tools": "Verktyg",
         "profile": "Profil",
         "logout": "Logga ut"
+    },
+    "Header": {
+        "welcome": "Välkommen till PMOT",
+        "description": "Experterna inom utmanande tekniska material för skolor och individer. Utforska vårt sortiment och bli inspirerad av våra högkvalitativa produkter som stimulerar lärande och upptäckt. På PMOT gör vi teknik tillgänglig och engagerande för alla!",
+        "shop": "Handla nu",
+        "contact": "Kontakt"
     }
 }

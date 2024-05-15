@@ -3,7 +3,7 @@
 import { Link } from '@/src/navigation'
 import { Button } from '@nextui-org/button'
 import { Dropdown, DropdownItem, DropdownMenu, DropdownTrigger } from '@nextui-org/dropdown'
-import { LanguagesIcon } from 'lucide-react'
+import { ChevronDownIcon, LanguagesIcon } from 'lucide-react'
 import { useLocale } from 'next-intl'
 import { useState } from 'react'
 
@@ -11,18 +11,29 @@ const LanguageChooser = () => {
     const locale = useLocale();
     const [selectedKeys, setSelectedKeys] = useState([locale]);
 
+    const languages = [
+        { key: 'en', title: 'English' },
+        { key: 'de', title: 'Deutsch' },
+        { key: 'it', title: 'Italiano' },
+        { key: 'nl', title: 'Nederlands' },
+        { key: 'pl', title: 'Polski' },
+        { key: 'sv', title: 'Svenska' },
+    ];
+
+    const currentLanguage = languages.find((lang) => lang.key === locale);
+    const currentLanguageTitle = currentLanguage?.title;
+
     return (
         <Dropdown title='Languages'>
             <DropdownTrigger>
-                <Button isIconOnly className='rounded-md' variant='bordered'><LanguagesIcon size={20} /></Button>
+                <Button className='rounded-md font-semibold' endContent={<ChevronDownIcon size={20} />} variant='bordered'>{currentLanguageTitle}</Button>
             </DropdownTrigger>
             <DropdownMenu selectionMode='single' selectedKeys={selectedKeys}>
-                <DropdownItem key="en"><Link href="/" locale='en'>English</Link></DropdownItem>
-                <DropdownItem key="de"><Link href="/" locale='de'>Deutsch</Link></DropdownItem>
-                <DropdownItem key="it"><Link href="/" locale='it'>Italiano</Link></DropdownItem>
-                <DropdownItem key="nl"><Link href="/" locale='nl'>Nederlands</Link></DropdownItem>
-                <DropdownItem key="pl"><Link href="/" locale='pl'>Polski</Link></DropdownItem>
-                <DropdownItem key="sv"><Link href="/" locale='sv'>Svenska</Link></DropdownItem>
+                {languages.map((language) => (
+                    <DropdownItem key={language.key} className={language.key === currentLanguage?.key ? 'font-semibold' : ''}>
+                        <Link className="block w-full h-full" href="/" locale={language.key as "en" | "de" | "it" | "nl" | "pl" | "sv" | undefined}>{language.title}</Link>
+                    </DropdownItem>
+                ))}
             </DropdownMenu>
         </Dropdown>
     )

@@ -1,6 +1,10 @@
 {
     "Nav": {
-        "search": "Ricerca"
+        "search": "Ricerca",
+        "free-shipping": "Spedizione gratuita nei Paesi Bassi da €100,-.",
+        "for-schools": "Per scuole e individui!",
+        "home": "Casa",
+        "open menu": "Apri menu"
     },
     "Auth": {
         "login": "Accedi",
@@ -12,12 +16,22 @@
         "areyousure": "Sei sicuro di voler uscire?"
     },
     "Category": {
-        "robotics": "Robotica",
+        "robotics": {
+            "title": "Robotica",
+            "description": "Scopri il mondo della robotica con i nostri kit educativi. Impara come costruire e programmare il tuo robot e esplora le infinite possibilità della tecnologia."
+        },
         "renewable energy": "Energia Rinnovabile",
         "arithmetic": "Aritmetica",
         "physics": "Fisica",
-        "wooden techiniquesets": "Set di Tecniche in Legno",
+        "woodensets": "Set di Tecniche in Legno",
+        "tools": "Strumenti",
         "profile": "Profilo",
         "logout": "Esci"
+    },
+    "Header": {
+        "welcome": "Benvenuto in PMOT",
+        "description": "L'esperto in materiali tecnici impegnativi per scuole e individui. Esplora la nostra gamma e lasciati ispirare dai nostri prodotti di alta qualità che stimolano l'apprendimento e la scoperta. Da PMOT, rendiamo la tecnologia accessibile e coinvolgente per tutti!",
+        "shop": "Acquista ora",
+        "contact": "Contatto"
     }
 }

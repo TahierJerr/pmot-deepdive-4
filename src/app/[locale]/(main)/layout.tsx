@@ -3,6 +3,7 @@ import "./globals.css";
 import NavbarComponent from "@/components/navbar-component";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
+import CategoryNavbar from "@/components/category-navbar";
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -27,9 +28,10 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={GeistSans.className}>
       <body>
-        <main className="min-h-screen flex flex-col items-center">
+        <main className="  min-h-[2000px] flex flex-col items-center">
           <NextIntlClientProvider messages={messages}>
           <NavbarComponent />
+          <CategoryNavbar />
           {children}
           </NextIntlClientProvider>
         </main>
