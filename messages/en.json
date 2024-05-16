@@ -19,14 +19,29 @@
     "Category": {
         "robotics": {
             "title": "Robotics",
-            "subtitle": "Discover the world of robotics with our educational kits. Learn how to build and program your own robot and explore the endless possibilities of technology."
+            "description": "Explore the fascinating world of robotics!",
+            "subtitle": "Discover the power of technology and unleash your creativity with our educational robotics kits."
         },
-        "renewable energy": "Renewable Energy",
-        "arithmetic": "Arithmetic",
-        "physics": "Physics",
-        "woodensets": "Wooden Techniquesets",
+        "arithmetic": {
+            "title": "Arithmetic",
+            "description": "Master the art of numbers and calculations!",
+            "subtitle": "Unlock the secrets of mathematics and develop your problem-solving skills with our educational arithmetic kits."
+        },
+        "physics": {
+            "title": "Physics",
+            "description": "Unleash the wonders of the physical world!",
+            "subtitle": "Embark on a journey of scientific discovery and explore the laws that govern our universe with our educational physics kits."
+        },
+        "woodensets": {
+            "title": "Wooden sets",
+            "description": "Ignite your imagination with wooden sets!",
+            "subtitle": "Build, create, and let your creativity soar with our educational wooden sets that inspire hands-on learning and innovation."
+        },
         "tools": "Tools",
+        "renewable energy": "Renewable Energy",
         "profile": "Profile",
+        "category": "Categories",
+        "explore": "Explore all our categories",
         "logout": "Logout"
     },
     "Header": {

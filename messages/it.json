@@ -19,13 +19,28 @@
     "Category": {
         "robotics": {
             "title": "Robotica",
-            "subtitle": "Scopri il mondo della robotica con i nostri kit educativi. Impara come costruire e programmare il tuo robot e esplora le infinite possibilità della tecnologia."
+            "description": "Esplora il mondo affascinante della robotica!",
+            "subtitle": "Scopri il potere della tecnologia e libera la tua creatività con i nostri kit educativi di robotica."
+        },
+        "arithmetic": {
+            "title": "Aritmetica",
+            "description": "Padroneggia l'arte dei numeri e dei calcoli!",
+            "subtitle": "Svela i segreti della matematica e sviluppa le tue capacità di risoluzione dei problemi con i nostri kit educativi di aritmetica."
+        },
+        "physics": {
+            "title": "Fisica",
+            "description": "Scopri le meraviglie del mondo fisico!",
+            "subtitle": "Intraprendi un viaggio alla scoperta scientifica ed esplora le leggi che governano il nostro universo con i nostri kit educativi di fisica."
+        },
+        "woodensets": {
+            "title": "Set in legno",
+            "description": "Accendi la tua immaginazione con i set in legno!",
+            "subtitle": "Costruisci, crea e lascia volare la tua creatività con i nostri set educativi in legno che ispirano l'apprendimento pratico e l'innovazione."
         },
         "renewable energy": "Energia Rinnovabile",
-        "arithmetic": "Aritmetica",
-        "physics": "Fisica",
-        "woodensets": "Set di Tecniche in Legno",
         "tools": "Strumenti",
+        "category": "Categorie",
+        "explore": "Esplora tutte le nostre categorie",
         "profile": "Profilo",
         "logout": "Esci"
     },

@@ -19,13 +19,28 @@
     "Category": {
         "robotics": {
             "title": "Robotik",
-            "subtitle": "Upptäck världen av robotik med våra utbildningskit. Lär dig att bygga och programmera din egen robot och utforska de oändliga möjligheterna inom teknik."
+            "description": "Utforska den fascinerande världen av robotik!",
+            "subtitle": "Upptäck kraften i teknik och låt din kreativitet flöda med våra utbildningsrobotik-kit."
+        },
+        "arithmetic": {
+            "title": "Aritmetik",
+            "description": "Bemästra konsten att hantera tal och beräkningar!",
+            "subtitle": "Lås upp hemligheterna inom matematik och utveckla dina problemlösningsfärdigheter med våra utbildningsaritmetik-kit."
+        },
+        "physics": {
+            "title": "Fysik",
+            "description": "Släpp lös underverken i den fysiska världen!",
+            "subtitle": "Ge dig ut på en resa av vetenskaplig upptäckt och utforska de lagar som styr vårt universum med våra utbildningsfysik-kit."
+        },
+        "woodensets": {
+            "title": "Träsatsningar",
+            "description": "Tänd din fantasi med träset!",
+            "subtitle": "Bygg, skapa och låt din kreativitet flyga med våra utbildningsträsatsningar som inspirerar till praktiskt lärande och innovation."
         },
         "renewable energy": "Förnybar energi",
-        "arithmetic": "Aritmetik",
-        "physics": "Fysik",
-        "woodensets": "Träteknikset",
         "tools": "Verktyg",
+        "category": "Kategorier",
+        "explore": "Utforska alla våra kategorier",
         "profile": "Profil",
         "logout": "Logga ut"
     },

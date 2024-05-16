@@ -11,9 +11,9 @@ const CategoryNavbar = () => {
     const menuItems = [
         { title: `${tc('robotics.title')}`, href: '/robotics' },
         { title: `${tc('renewable energy')}`, href: '#' },
-        { title: `${tc('arithmetic')}`, href: '#' },
-        { title: `${tc('physics')}`, href: '#' },
-        { title: `${tc('woodensets')}`, href: '#' },
+        { title: `${tc('arithmetic.title')}`, href: '#' },
+        { title: `${tc('physics.title')}`, href: '#' },
+        { title: `${tc('woodensets.title')}`, href: '#' },
         { title: `${tc('tools')}`, href: '#' },
     ];
 

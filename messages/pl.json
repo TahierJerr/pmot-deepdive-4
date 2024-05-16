@@ -19,13 +19,28 @@
     "Category": {
         "robotics": {
             "title": "Robotyka",
-            "subtitle": "Odkryj świat robotyki dzięki naszym zestawom edukacyjnym. Naucz się budować i programować własnego robota oraz odkrywaj nieskończone możliwości technologii."
+            "description": "Odkryj fascynujący świat robotyki!",
+            "subtitle": "Odkryj moc technologii i uwolnij swoją kreatywność dzięki naszym edukacyjnym zestawom robotyki."
+        },
+        "arithmetic": {
+            "title": "Arytmetyka",
+            "description": "Opanuj sztukę liczb i obliczeń!",
+            "subtitle": "Odkryj tajniki matematyki i rozwijaj umiejętność rozwiązywania problemów dzięki naszym edukacyjnym zestawom arytmetycznym."
+        },
+        "physics": {
+            "title": "Fizyka",
+            "description": "Odkryj cuda świata fizycznego!",
+            "subtitle": "Wyrusz w podróż odkrywczą nauki i poznaj prawa, które rządzą naszym wszechświatem dzięki naszym edukacyjnym zestawom fizyki."
+        },
+        "woodensets": {
+            "title": "Zestawy drewniane",
+            "description": "Rozpal swoją wyobraźnię zestawami drewnianymi!",
+            "subtitle": "Buduj, twórz i pozwól swojej kreatywności wznieść się na wyżyny dzięki naszym edukacyjnym zestawom drewnianym, które inspirują naukę praktyczną i innowację."
         },
       "renewable energy": "Energia odnawialna",
-      "arithmetic": "Arytmetyka",
-      "physics": "Fizyka",
-      "woodensets": "Zestawy techniki drewnianej",
       "tools": "Narzędzia",
+    "category": "Kategorie",
+    "explore": "Przeglądaj wszystkie nasze kategorie",
       "profile": "Profil",
       "logout": "Wyloguj"
     },

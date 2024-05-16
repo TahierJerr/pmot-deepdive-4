@@ -19,13 +19,28 @@
     "Category": {
         "robotics": {
             "title": "Robotik",
-            "subtitle": "Entdecken Sie die Welt der Robotik mit unseren Bildungskits. Lernen Sie, wie Sie Ihren eigenen Roboter bauen und programmieren können und erkunden Sie die endlosen Möglichkeiten der Technologie."
+            "description": "Entdecke die faszinierende Welt der Robotik!",
+            "subtitle": "Entdecke die Kraft der Technologie und entfessele deine Kreativität mit unseren Bildungsrobotik-Sets."
+        },
+        "arithmetic": {
+            "title": "Arithmetik",
+            "description": "Meistere die Kunst der Zahlen und Berechnungen!",
+            "subtitle": "Entschlüssle die Geheimnisse der Mathematik und entwickle deine Problemlösungsfähigkeiten mit unseren Bildungsarithmetik-Sets."
+        },
+        "physics": {
+            "title": "Physik",
+            "description": "Entfessele die Wunder der physikalischen Welt!",
+            "subtitle": "Begib dich auf eine Reise der wissenschaftlichen Entdeckung und erforsche die Gesetze, die unser Universum regieren, mit unseren Bildungsphysik-Sets."
+        },
+        "woodensets": {
+            "title": "Holzsets",
+            "description": "Entfache deine Vorstellungskraft mit Holzsets!",
+            "subtitle": "Baue, erschaffe und lasse deine Kreativität mit unseren bildenden Holzsets aufblühen, die praktisches Lernen und Innovation inspirieren."
         },
         "renewable energy": "Erneuerbare Energie",
-        "arithmetic": "Arithmetik",
-        "physics": "Physik",
-        "woodensets": "Holztechnik-Sets",
         "tools": "Werkzeuge",
+        "category": "Kategorien",
+        "explore": "Entdecke alle unsere Kategorien",
         "profile": "Profil",
         "logout": "Abmelden"
     },

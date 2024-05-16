@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <>
     <Header />
-    <CategoryList title='' />
+    <CategoryList title='Categories' subtitle='Explore our categories' />
     </>
   )
 }
