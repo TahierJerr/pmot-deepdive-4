@@ -19,7 +19,7 @@ const Header = () => {
         />
       </div>
 
-      <div className="lg:py-24 flex flex-col gap-2">
+      <div className="lg:py-14 flex flex-col gap-2 ">
         <h2 className="text-3xl font-bold sm:text-4xl">{t("welcome")}</h2>
         <p className="mt-4 text-gray-600 leading-8">{t("description")}</p>
         <div className='flex items-center gap-4 mt-8'>

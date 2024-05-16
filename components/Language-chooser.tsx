@@ -1,6 +1,6 @@
 "use client"
 
-import { Link } from '@/src/navigation'
+import { Link, usePathname } from '@/src/navigation'
 import { Button } from '@nextui-org/button'
 import { Dropdown, DropdownItem, DropdownMenu, DropdownTrigger } from '@nextui-org/dropdown'
 import { ChevronDownIcon, LanguagesIcon } from 'lucide-react'
@@ -10,6 +10,8 @@ import { useState } from 'react'
 const LanguageChooser = () => {
     const locale = useLocale();
     const [selectedKeys, setSelectedKeys] = useState([locale]);
+
+    const pathname = usePathname();
 
     const languages = [
         { key: 'en', title: 'English' },
@@ -31,7 +33,7 @@ const LanguageChooser = () => {
             <DropdownMenu selectionMode='single' selectedKeys={selectedKeys}>
                 {languages.map((language) => (
                     <DropdownItem key={language.key} className={language.key === currentLanguage?.key ? 'font-semibold' : ''}>
-                        <Link className="block w-full h-full" href="/" locale={language.key as "en" | "de" | "it" | "nl" | "pl" | "sv" | undefined}>{language.title}</Link>
+                        <Link className="block w-full h-full" href={pathname} locale={language.key as "en" | "de" | "it" | "nl" | "pl" | "sv" | undefined}>{language.title}</Link>
                     </DropdownItem>
                 ))}
             </DropdownMenu>

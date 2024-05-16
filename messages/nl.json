@@ -4,7 +4,8 @@
       "free-shipping": "Gratis verzending in Nederland vanaf €100,-.",
       "for-schools": "Voor scholen en particulieren!",
       "home": "Home",
-      "open menu": "Open menu"
+      "open menu": "Open menu",
+      "close menu": "Sluit menu"
     },
     "Auth": {
         "login": "Inloggen",
@@ -16,9 +17,9 @@
         "areyousure": "Weet je zeker dat je wilt uitloggen"
     },
     "Category": {
-      "robotica": {
+      "robotics": {
         "title": "Robotica",
-        "description": "Ontdek de wereld van robotica met onze educatieve kits. Leer hoe je je eigen robot kunt bouwen en programmeren en verken de eindeloze mogelijkheden van technologie."
+        "subtitle": "Ontdek de wereld van robotica met onze educatieve kits. Leer hoe je je eigen robot kunt bouwen en programmeren en verken de eindeloze mogelijkheden van technologie."
         },
       "renewable energy": "Duurzame energie",
       "arithmetic": "Rekenen",

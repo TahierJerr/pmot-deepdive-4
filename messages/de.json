@@ -4,7 +4,8 @@
         "free-shipping": "Kostenloser Versand in den Niederlanden ab €100,-.",
         "for-schools": "Für Schulen und Einzelpersonen!",
         "home": "Startseite",
-        "open menu": "Menü öffnen"
+        "open menu": "Menü öffnen",
+        "close menu": "Menü schließen"
     },
     "Auth": {
         "login": "Anmelden",
@@ -18,7 +19,7 @@
     "Category": {
         "robotics": {
             "title": "Robotik",
-            "description": "Entdecken Sie die Welt der Robotik mit unseren Bildungskits. Lernen Sie, wie Sie Ihren eigenen Roboter bauen und programmieren können und erkunden Sie die endlosen Möglichkeiten der Technologie."
+            "subtitle": "Entdecken Sie die Welt der Robotik mit unseren Bildungskits. Lernen Sie, wie Sie Ihren eigenen Roboter bauen und programmieren können und erkunden Sie die endlosen Möglichkeiten der Technologie."
         },
         "renewable energy": "Erneuerbare Energie",
         "arithmetic": "Arithmetik",

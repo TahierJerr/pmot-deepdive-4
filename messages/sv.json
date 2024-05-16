@@ -4,7 +4,8 @@
         "free-shipping": "Fri frakt i Nederländerna från €100,-.",
         "for-schools": "För skolor och individer!",
         "home": "Hem",
-        "open menu": "Öppna meny"
+        "open menu": "Öppna meny",
+        "close menu": "Stäng meny"
     },
     "Auth": {
         "login": "Logga in",
@@ -18,7 +19,7 @@
     "Category": {
         "robotics": {
             "title": "Robotik",
-            "description": "Upptäck världen av robotik med våra utbildningskit. Lär dig att bygga och programmera din egen robot och utforska de oändliga möjligheterna inom teknik."
+            "subtitle": "Upptäck världen av robotik med våra utbildningskit. Lär dig att bygga och programmera din egen robot och utforska de oändliga möjligheterna inom teknik."
         },
         "renewable energy": "Förnybar energi",
         "arithmetic": "Aritmetik",

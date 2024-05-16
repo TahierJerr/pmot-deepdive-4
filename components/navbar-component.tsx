@@ -17,7 +17,7 @@ const NavbarComponent = () => {
     const tc = useTranslations('Category')
     
     const menuItems = [
-    { title: `${tc('robotics')}`, href: '/robotics' },
+    { title: `${tc('robotics.title')}`, href: '/robotics' },
     { title: `${tc('renewable energy')}`, href: '/renewable-energy' },
     { title: `${tc('arithmetic')}`, href: '/arithmetic' },
     { title: `${tc('physics')}`, href: '/physics' },
@@ -37,6 +37,7 @@ const NavbarComponent = () => {
             <NavbarBrand className='hidden sm:flex'>
                 <Link href='/'>
                     <PmotLogo />
+                    {/* <p className='text-red-500 font-extrabold text-4xl flex items-center text-center justify-center ml-3 '>PMOT</p> */}
                 </Link>
             </NavbarBrand>
         </NavbarContent>

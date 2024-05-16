@@ -16,9 +16,9 @@
         "areyousure": "Czy na pewno chcesz się wylogować?"
     },
     "Category": {
-        "robotyka": {
+        "robotics": {
             "title": "Robotyka",
-            "description": "Odkryj świat robotyki dzięki naszym zestawom edukacyjnym. Naucz się budować i programować własnego robota oraz odkrywaj nieskończone możliwości technologii."
+            "subtitle": "Odkryj świat robotyki dzięki naszym zestawom edukacyjnym. Naucz się budować i programować własnego robota oraz odkrywaj nieskończone możliwości technologii."
         },
       "renewable energy": "Energia odnawialna",
       "arithmetic": "Arytmetyka",

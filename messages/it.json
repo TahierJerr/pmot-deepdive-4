@@ -4,7 +4,8 @@
         "free-shipping": "Spedizione gratuita nei Paesi Bassi da €100,-.",
         "for-schools": "Per scuole e individui!",
         "home": "Casa",
-        "open menu": "Apri menu"
+        "open menu": "Apri menu",
+        "close menu": "Chiudi menu"
     },
     "Auth": {
         "login": "Accedi",
@@ -18,7 +19,7 @@
     "Category": {
         "robotics": {
             "title": "Robotica",
-            "description": "Scopri il mondo della robotica con i nostri kit educativi. Impara come costruire e programmare il tuo robot e esplora le infinite possibilità della tecnologia."
+            "subtitle": "Scopri il mondo della robotica con i nostri kit educativi. Impara come costruire e programmare il tuo robot e esplora le infinite possibilità della tecnologia."
         },
         "renewable energy": "Energia Rinnovabile",
         "arithmetic": "Aritmetica",

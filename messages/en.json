@@ -4,7 +4,8 @@
         "free-shipping": "Free shipping in the Netherlands from €100,-.",
         "for-schools": "For schools and individuals!",
         "home": "Home",
-        "open menu": "Open menu"
+        "open menu": "Open menu",
+        "close menu": "Close menu"
     },
     "Auth": {
         "login": "Login",
@@ -18,7 +19,7 @@
     "Category": {
         "robotics": {
             "title": "Robotics",
-            "description": "Discover the world of robotics with our educational kits. Learn how to build and program your own robot and explore the endless possibilities of technology."
+            "subtitle": "Discover the world of robotics with our educational kits. Learn how to build and program your own robot and explore the endless possibilities of technology."
         },
         "renewable energy": "Renewable Energy",
         "arithmetic": "Arithmetic",
