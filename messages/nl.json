@@ -17,22 +17,22 @@
         "areyousure": "Weet je zeker dat je wilt uitloggen"
     },
     "Category": {
-      "robotica": {
+      "robotics": {
         "title": "Robotica",
         "description": "Verken de fascinerende wereld van robotica!",
         "subtitle": "Ontdek de kracht van technologie en laat je creativiteit de vrije loop met onze educatieve robotica-kits."
         },
-        "rekenkunde": {
+        "arithmetic": {
         "title": "Rekenkunde",
         "description": "Beheers de kunst van getallen en berekeningen!",
         "subtitle": "Ontgrendel de geheimen van wiskunde en ontwikkel je probleemoplossende vaardigheden met onze educatieve rekenkunde-kits."
         },
-        "natuurkunde": {
+        "physics": {
         "title": "Natuurkunde",
         "description": "Ontketen de wonderen van de fysieke wereld!",
         "subtitle": "Ga op een reis van wetenschappelijke ontdekking en verken de wetten die ons universum beheersen met onze educatieve natuurkunde-kits."
         },
-        "houten-sets": {
+        "woodensets": {
         "title": "Houten sets",
         "description": "Laat je verbeelding ontvlammen met houten sets!",
         "subtitle": "Bouw, creëer en laat je creativiteit de vrije loop met onze educatieve houten sets die hands-on leren en innovatie inspireren."

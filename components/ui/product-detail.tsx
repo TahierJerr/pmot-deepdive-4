@@ -56,7 +56,7 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
             </BreadcrumbList>
             
         </Breadcrumb>  
-        <div className='grid sm:grid-cols-2 gap-4'>
+        <div className='grid sm:grid-cols-2 gap-4 mt-12'>
             <div>
                 <div className='max-w-sm grid aspect-square flex-shrink-0 h-full rounded-md'>
                 <Image width={1000} height={1000} src={product.image} alt={product.title} />

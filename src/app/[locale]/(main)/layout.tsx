@@ -4,6 +4,7 @@ import NavbarComponent from "@/components/navbar-component";
 import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import CategoryNavbar from "@/components/category-navbar";
+import Footer from "@/components/footer";
 
 
 const defaultUrl = process.env.VERCEL_URL
@@ -31,11 +32,12 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={GeistSans.className}>
       <body>
-        <main className="  min-h-[2000px] flex flex-col items-center">
+        <main className=" flex flex-col items-center">
           <NextIntlClientProvider messages={messages}>
           <NavbarComponent />
           <CategoryNavbar />
           {children}
+          <Footer />
           </NextIntlClientProvider>
         </main>
       </body>
