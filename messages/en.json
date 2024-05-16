@@ -34,5 +34,12 @@
         "description": "The expert in challenging technical materials for schools and individuals. Explore our range and be inspired by our high-quality products that stimulate learning and discovery. At PMOT, we make technology accessible and engaging for everyone!",
         "shop": "Shop now",
         "contact": "Contact"
+    },
+    "Cart": {
+        "add": "Add to cart",
+        "remove": "Remove from cart",
+        "empty": "Empty cart",
+        "emptyCart": "Your cart is empty",
+        "quantity": "Quantity"
     }
 }

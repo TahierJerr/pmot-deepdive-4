@@ -34,5 +34,12 @@
         "description": "Der Experte für anspruchsvolle technische Materialien für Schulen und Einzelpersonen. Entdecken Sie unser Sortiment und lassen Sie sich von unseren hochwertigen Produkten inspirieren, die das Lernen und Entdecken fördern. Bei PMOT machen wir Technologie für alle zugänglich und spannend!",
         "shop": "Jetzt einkaufen",
         "contact": "Kontakt"
+    },
+    "Cart": {
+        "add": "In den Warenkorb legen",
+        "remove": "Aus dem Warenkorb entfernen",
+        "empty": "Warenkorb leeren",
+        "emptyCart": "Ihr Warenkorb ist leer",
+        "quantity": "Menge"
     }
 }

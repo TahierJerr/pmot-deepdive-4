@@ -2,20 +2,24 @@
 
 import { Navbar, NavbarBrand, NavbarContent, NavbarItem, NavbarMenu, NavbarMenuItem, NavbarMenuToggle, } from '@nextui-org/navbar'
 import PmotLogo from './pmot-logo'
-import Link from 'next/link'
 import { Input } from '@nextui-org/input'
 import { useTranslations } from 'next-intl'
 import LagnuageChooser from './Language-chooser'
 import { useState, } from 'react'
 import { SearchIcon, ShoppingCartIcon } from 'lucide-react'
 import Carousel from './Carousel'
+import { Link } from '@/src/navigation'
 
 const NavbarComponent = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     
     const t = useTranslations('Nav')
     const tc = useTranslations('Category')
-    
+
+    const handleClick = () => {
+        setIsMenuOpen(false);
+    }
+
     const menuItems = [
     { title: `${tc('robotics.title')}`, href: '/robotics' },
     { title: `${tc('renewable energy')}`, href: '/renewable-energy' },
@@ -37,7 +41,6 @@ const NavbarComponent = () => {
             <NavbarBrand className='hidden sm:flex'>
                 <Link href='/'>
                     <PmotLogo />
-                    {/* <p className='text-red-500 font-extrabold text-4xl flex items-center text-center justify-center ml-3 '>PMOT</p> */}
                 </Link>
             </NavbarBrand>
         </NavbarContent>
@@ -56,7 +59,7 @@ const NavbarComponent = () => {
                 <LagnuageChooser />
             </NavbarItem>
             <NavbarItem>
-                <Link className='flex items-center border-gray-600 p-2' href='/cart'>
+                <Link className='flex items-center border-gray-600 p-2' href='/cart' onClick={handleClick}>
                     <ShoppingCartIcon />
                 </Link>
             </NavbarItem>
@@ -64,7 +67,7 @@ const NavbarComponent = () => {
         <NavbarMenu>
             {menuItems.map((item, index) => (
                 <NavbarMenuItem key={index}>
-                    <Link className='w-full' color={index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"} href={item.href
+                    <Link onClick={handleClick} className='w-full' color={index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"} href={item.href
                     }>{item.title}</Link>
                 </NavbarMenuItem>
                 ))}

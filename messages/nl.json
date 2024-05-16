@@ -34,5 +34,12 @@
         "description": "De expert in uitdagende technische materialen voor scholen en particulieren. Verken ons assortiment en laat je inspireren door onze hoogwaardige producten die leren en ontdekken stimuleren. Bij PMOT maken we technologie toegankelijk en boeiend voor iedereen!",
         "shop": "Bekijk nu",
         "contact": "Contact"
+    },
+    "Cart": {
+      "add": "Toevoegen aan winkelwagen",
+      "remove": "Verwijderen uit winkelwagen",
+      "empty": "Winkelwagen legen",
+      "emptyCart": "Je winkelwagen is leeg",
+      "quantity": "Aantal"
     }
   }

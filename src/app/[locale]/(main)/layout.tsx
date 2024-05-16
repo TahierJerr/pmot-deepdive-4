@@ -5,13 +5,16 @@ import {NextIntlClientProvider} from 'next-intl';
 import {getMessages} from 'next-intl/server';
 import CategoryNavbar from "@/components/category-navbar";
 
+
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
   : "http://localhost:3000";
+  
 
 export const metadata = {
+
   metadataBase: new URL(defaultUrl),
-  title: "Next.js and Supabase Starter Kit",
+  title: "PMOT",
   description: "The fastest way to build apps with Next.js and Supabase",
 };
 

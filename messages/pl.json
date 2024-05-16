@@ -4,7 +4,8 @@
         "free-shipping": "Darmowa wysyłka w Holandii od 100 €.",
         "for-schools": "Dla szkół i osób indywidualnych!",
         "home": "Strona główna",
-        "open menu": "Otwórz menu"
+        "open menu": "Otwórz menu",
+        "close menu": "Zamknij menu"
     },
     "Auth": {
         "login": "Zaloguj",
@@ -33,5 +34,12 @@
         "description": "Ekspert w trudnych materiałach technicznych dla szkół i osób indywidualnych. Odkryj naszą ofertę i zainspiruj się naszymi wysokiej jakości produktami, które stymulują naukę i odkrywanie. W PMOT technologia staje się dostępna i interesująca dla każdego!",
         "shop": "Kup teraz",
         "contact": "Kontakt"
+    },
+    "Cart": {
+        "add": "Dodaj do koszyka",
+        "remove": "Usuń z koszyka",
+        "empty": "Opróżnij koszyk",
+        "emptyCart": "Twój koszyk jest pusty",
+        "quantity": "Ilość"
     }
 }

@@ -18,8 +18,8 @@ const ProductList: React.FC<ProductListProps> = ({ products, maxCards, title, su
     return (
         <div className={className} >
             <h2 className="text-2xl font-bold flex items-center justify-center text-center">{title}</h2>
-            {subtitle && <p className="text-default-500 flex items-center justify-center text-center">{subtitle}</p>}
-            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8">
+            {subtitle && <p className="max-w-lg text-default-500 flex items-center justify-center text-center">{subtitle}</p>}
+            <div className="grid gap-2 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8">
                 {repeatedProducts.slice(0, maxCards).map((product, index) => (
                     <ProductCard key={index} product={product} />
                 ))}

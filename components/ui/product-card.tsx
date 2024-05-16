@@ -5,6 +5,7 @@ import { Products } from '@/types'
 import { Button } from '@nextui-org/button';
 import { Card, CardBody, CardHeader } from '@nextui-org/card'
 import { ShoppingCartIcon } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import React from 'react'
 
@@ -13,6 +14,7 @@ interface ProductCardProps {
 }
 
 const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+    const t = useTranslations("Cart");
 
     const router = useRouter();
 
@@ -24,7 +26,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
 return (
     <div onClick={handleClick} className='cursor-pointer'>
-        <Card className="py-4 cursor-pointer max-w-72 h-full flex flex-col justify-between">
+        <Card className="py-4 cursor-pointer  max-w-80 sm:max-w-72 h-full flex flex-col justify-between">
             <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
                 <p className="text-tiny uppercase font-bold">{product.title}</p>
                 <small className="text-default-500">{product.brand}</small>
@@ -41,7 +43,7 @@ return (
                             src={product.image}
                         />
                     </div>
-                    <Button className="mt-4 flex items-center justify-center text-center bg-red-500 text-white " ><ShoppingCartIcon size={20} />Add to cart</Button>
+                    <Button className="mt-4 flex items-center justify-center text-center bg-red-500 text-white" startContent={<ShoppingCartIcon size={20} />}>{t("add")}</Button>
                 </div>
             </CardBody>
         </Card>

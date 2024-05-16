@@ -34,5 +34,12 @@
         "description": "L'esperto in materiali tecnici impegnativi per scuole e individui. Esplora la nostra gamma e lasciati ispirare dai nostri prodotti di alta qualità che stimolano l'apprendimento e la scoperta. Da PMOT, rendiamo la tecnologia accessibile e coinvolgente per tutti!",
         "shop": "Acquista ora",
         "contact": "Contatto"
+    },
+    "Cart": {
+        "add": "Aggiungi al carrello",
+        "remove": "Rimuovi dal carrello",
+        "empty": "Svuota carrello",
+        "emptyCart": "Il tuo carrello è vuoto",
+        "quantity": "Quantità"
     }
 }

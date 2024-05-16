@@ -34,5 +34,12 @@
         "description": "Experterna inom utmanande tekniska material för skolor och individer. Utforska vårt sortiment och bli inspirerad av våra högkvalitativa produkter som stimulerar lärande och upptäckt. På PMOT gör vi teknik tillgänglig och engagerande för alla!",
         "shop": "Handla nu",
         "contact": "Kontakt"
+    },
+    "Cart": {
+        "add": "Lägg till i varukorgen",
+        "remove": "Ta bort från varukorgen",
+        "empty": "Töm varukorgen",
+        "emptyCart": "Din varukorg är tom",
+        "quantity": "Antal"
     }
 }

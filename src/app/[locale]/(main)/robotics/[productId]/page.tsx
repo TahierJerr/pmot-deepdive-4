@@ -33,7 +33,9 @@ const ProductPage: React.FC<ProductPageProps> = ({ product }) => {
 
 
   return (
-    <ProductDetail product={item} />
+    <div className='mt-8'>
+        <ProductDetail product={item} />
+    </div>
   )
 }
 
