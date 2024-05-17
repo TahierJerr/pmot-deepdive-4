@@ -70,5 +70,12 @@
         "companyinfo": "Informazioni sull'azienda",
         "categories": "Categorie",
         "netherlands": "Paesi Bassi"
+    },
+    "Contact": {
+        "send" : "Invia messaggio",
+        "name": "Nome",
+        "email": "Email",
+        "subject": "Oggetto",
+        "message": "Messaggio"
     }
 }

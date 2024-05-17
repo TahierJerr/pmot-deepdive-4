@@ -70,5 +70,12 @@
         "companyinfo": "Företagsinformation",
         "categories": "Kategorier",
         "netherlands": "Nederländerna"
+    },
+    "Contact": {
+      "send" : "Skicka meddelande",
+      "name": "Namn",
+      "email": "E-post",
+      "subject": "Ämne",
+      "message": "Meddelande"
     }
 }

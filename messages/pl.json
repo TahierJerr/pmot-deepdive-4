@@ -70,5 +70,12 @@
         "companyinfo": "Informacje o firmie",
         "categories": "Kategorie",
         "netherlands": "Holandia"
+    },
+    "Contact": {
+      "send" : "Wyślij wiadomość",
+      "name": "Imię",
+      "email": "Email",
+      "subject": "Temat",
+      "message": "Wiadomość"
     }
 }

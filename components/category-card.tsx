@@ -18,7 +18,7 @@ const CategoryCard: React.FC<CategoryCardProps> = ({ title, description, image, 
             <p className="text-xl ml-2 font-bold">{title}</p>
             <p className="text-xs ml-2">{description}</p>
             <div className='w-full flex items-center justify-center mt-2'>
-            <Button endContent={<ChevronRightIcon size={20} />} className='bg-red-500 text-white rounded-md border-2 min-w-52 border-red-500 hover:text-red-500 hover:bg-white font-semibold'>Go to {title}</Button>
+            <Button endContent={<ChevronRightIcon size={20} />} className='bg-red-500 text-white rounded-md border-2 w-full mx-2 border-red-500 hover:text-red-500 hover:bg-white font-semibold'>Go to {title}</Button>
             </div>
         </div>
     </Link>

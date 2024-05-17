@@ -70,5 +70,12 @@
         "companyinfo": "Company information",
         "categories": "Categories",
         "netherlands": "The Netherlands"
+    },
+    "Contact": {
+        "send" : "Send message",
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message"
     }
 }

@@ -59,7 +59,7 @@ const Footer = () => {
                         <p className='font-bold mb-0.5'>{f("subscribe")}</p>
                         <p>{f("subscribe-subtitle")}</p>
                     </div>
-                    <div className="flex items-center gap-4 mt-4 sm:mt-0 w-full">
+                    <div className="flex items-center justify-end gap-4 mt-4 sm:mt-0 w-full">
                         <Input radius='sm' type='email' className='w-56' placeholder={f("enteremail")} />
                         <Button radius='sm' >{f("sub")}</Button>
                     </div>
