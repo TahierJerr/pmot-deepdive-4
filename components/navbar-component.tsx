@@ -9,6 +9,7 @@ import { useState, } from 'react'
 import { SearchIcon, ShoppingCartIcon } from 'lucide-react'
 import Carousel from './Carousel'
 import { Link } from '@/src/navigation'
+import LanguageChooser from './Language-chooser'
 
 const NavbarComponent = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -23,9 +24,9 @@ const NavbarComponent = () => {
     const menuItems = [
     { title: `${tc('robotics.title')}`, href: '/robotics' },
     { title: `${tc('renewable energy')}`, href: '/renewable-energy' },
-    { title: `${tc('arithmetic')}`, href: '/arithmetic' },
-    { title: `${tc('physics')}`, href: '/physics' },
-    { title: `${tc('woodensets')}`, href: '/wooden-techiniquesets' },
+    { title: `${tc('arithmetic.title')}`, href: '/arithmetic' },
+    { title: `${tc('physics.title')}`, href: '/physics' },
+    { title: `${tc('woodensets.title')}`, href: '/wooden-techiniquesets' },
     { title: `${tc('profile')}`, href: '/profile' },
     { title: `${tc('logout')}`, href: '/logout' },
     ];
@@ -71,6 +72,9 @@ const NavbarComponent = () => {
                     }>{item.title}</Link>
                 </NavbarMenuItem>
                 ))}
+                <NavbarMenuItem>
+                    <LanguageChooser className='w-full mt-2 border-black' />
+                </NavbarMenuItem>
         </NavbarMenu>
     </Navbar>
     </>

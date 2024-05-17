@@ -56,5 +56,18 @@
         "empty": "Warenkorb leeren",
         "emptyCart": "Ihr Warenkorb ist leer",
         "quantity": "Menge"
+    },
+    "Footer": {
+        "sub": "Abonnieren",
+        "subscribe": "Abonnieren Sie unseren Newsletter",
+        "subscribe-subtitle": "Bleiben Sie auf dem Laufenden über die neuesten Nachrichten, Angebote und Produktveröffentlichungen.",
+        "enteremail": "Geben Sie Ihre E-Mail-Adresse ein",
+        "terms": "Geschäftsbedingungen",
+        "privacy": "Datenschutzrichtlinie",
+        "allrights": "Alle Rechte vorbehalten",
+        "allprices": "Alle Preise verstehen sich inklusive Mehrwertsteuer",
+        "legal": "Rechtliches",
+        "companyinfo": "Unternehmensinformationen",
+        "categories": "Kategorien"
     }
 }

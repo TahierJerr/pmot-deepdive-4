@@ -56,5 +56,18 @@
         "empty": "Empty cart",
         "emptyCart": "Your cart is empty",
         "quantity": "Quantity"
+    },
+    "Footer": {
+        "sub": "Subscribe",
+        "subscribe": "Subscribe to our newsletter",
+        "subscribe-subtitle": "Stay up to date with the latest news, offers, and product releases.",
+        "enteremail": "Enter your email",
+        "terms": "Terms and conditions",
+        "privacy": "Privacy policy",
+        "allrights": "All rights reserved",
+        "allprices": "All prices are inclusive of VAT",
+        "legal": "Legal",
+        "companyinfo": "Company information",
+        "categories": "Categories"
     }
 }

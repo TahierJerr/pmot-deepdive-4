@@ -56,5 +56,18 @@
         "empty": "Svuota carrello",
         "emptyCart": "Il tuo carrello è vuoto",
         "quantity": "Quantità"
+    },
+    "Footer": {
+        "sub": "Iscriviti",
+        "subscribe": "Iscriviti alla nostra newsletter",
+        "subscribe-subtitle": "Resta aggiornato con le ultime notizie, offerte e nuovi prodotti.",
+        "enteremail": "Inserisci la tua email",
+        "terms": "Termini e condizioni",
+        "privacy": "Informativa sulla privacy",
+        "allrights": "Tutti i diritti riservati",
+        "allprices": "Tutti i prezzi sono inclusivi di IVA",
+        "legal": "Legale",
+        "companyinfo": "Informazioni sull'azienda",
+        "categories": "Categorie"
     }
 }

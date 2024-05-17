@@ -56,5 +56,18 @@
         "empty": "Töm varukorgen",
         "emptyCart": "Din varukorg är tom",
         "quantity": "Antal"
+    },
+    "Footer": {
+        "sub": "Prenumerera",
+        "subscribe": "Prenumerera på vårt nyhetsbrev",
+        "subscribe-subtitle": "Håll dig uppdaterad med de senaste nyheterna, erbjudandena och produktlanseringarna.",
+        "enteremail": "Ange din e-post",
+        "terms": "Villkor och bestämmelser",
+        "privacy": "Integritetspolicy",
+        "allrights": "Alla rättigheter förbehållna",
+        "allprices": "Alla priser inkluderar moms",
+        "legal": "Juridiskt",
+        "companyinfo": "Företagsinformation",
+        "categories": "Kategorier"
     }
 }

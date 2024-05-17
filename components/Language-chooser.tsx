@@ -7,7 +7,11 @@ import { ChevronDownIcon, LanguagesIcon } from 'lucide-react'
 import { useLocale } from 'next-intl'
 import { useState } from 'react'
 
-const LanguageChooser = () => {
+interface LanguageChooserProps {
+    className?: string
+}
+
+const LanguageChooser: React.FC<LanguageChooserProps> = ({ className }) => {
     const locale = useLocale();
     const [selectedKeys, setSelectedKeys] = useState([locale]);
 
@@ -28,7 +32,7 @@ const LanguageChooser = () => {
     return (
         <Dropdown title='Languages'>
             <DropdownTrigger>
-                <Button className='rounded-md font-semibold' endContent={<ChevronDownIcon size={20} />} variant='bordered'>{currentLanguageTitle}</Button>
+                <Button className={`rounded-md font-semibold ${className}`} endContent={<ChevronDownIcon size={20} />} variant='bordered'>{currentLanguageTitle}</Button>
             </DropdownTrigger>
             <DropdownMenu selectionMode='single' selectedKeys={selectedKeys}>
                 {languages.map((language) => (

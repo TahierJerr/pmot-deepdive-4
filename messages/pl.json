@@ -56,5 +56,18 @@
         "empty": "Opróżnij koszyk",
         "emptyCart": "Twój koszyk jest pusty",
         "quantity": "Ilość"
+    },
+    "Footer": {
+        "sub": "Subskrybuj",
+        "subscribe": "Zapisz się do naszego biuletynu",
+        "subscribe-subtitle": "Bądź na bieżąco z najnowszymi wiadomościami, ofertami i premierami produktów.",
+        "enteremail": "Wpisz swój adres e-mail",
+        "terms": "Warunki korzystania",
+        "privacy": "Polityka prywatności",
+        "allrights": "Wszelkie prawa zastrzeżone",
+        "allprices": "Wszystkie ceny zawierają VAT",
+        "legal": "Informacje prawne",
+        "companyinfo": "Informacje o firmie",
+        "categories": "Kategorie"
     }
 }

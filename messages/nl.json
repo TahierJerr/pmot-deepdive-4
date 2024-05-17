@@ -56,5 +56,18 @@
       "empty": "Winkelwagen legen",
       "emptyCart": "Je winkelwagen is leeg",
       "quantity": "Aantal"
+    },
+    "Footer": {
+      "sub": "Abonneren",
+      "subscribe": "Abonneer je op onze nieuwsbrief",
+      "subscribe-subtitle": "Blijf op de hoogte van het laatste nieuws, aanbiedingen en productlanceringen.",
+      "enteremail": "Voer je e-mailadres in",
+      "terms": "Algemene voorwaarden",
+      "privacy": "Privacybeleid",
+      "allrights": "Alle rechten voorbehouden",
+      "allprices": "Alle prijzen zijn inclusief BTW",
+      "legal": "Juridisch",
+      "companyinfo": "Bedrijfsinformatie",
+      "categories": "Categorieën"
     }
   }
